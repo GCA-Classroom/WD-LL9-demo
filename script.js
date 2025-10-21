@@ -11,7 +11,12 @@ const songs = [
   ];
   
   function generateSetlist() {
-// Create generateSetList() function here
+// Create generateSetList() function here using the fisher yates shuffle. original function provided as a reference.
+      //function generateSetlist() {
+ // const shuffledSongs = songs.sort(() => Math.random() - 0.5);
+  //document.getElementById("setlist").innerHTML =
+    //shuffledSongs.map(song => `<li>${song}</li>`).join('');
+}
   }
   
   document.getElementById("generateSetlist").addEventListener("click", generateSetlist);
